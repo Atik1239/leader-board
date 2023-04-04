@@ -4,6 +4,44 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #d4d3d8;
+    margin: 0;
+}
+header{
+    background-color: #562EFF;
+}
+.navbar{
+    position: relative;
+    left: 200px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    align-items: center;
+    width: 870px;
+}
+
+.logo{
+    display: flex;
+    padding: 10px;
+}
+.logo img{
+    width: 40.42px;
+    height: 51px;
+}
+.nav-section{
+    display: flex;
+}
+.nav-section ul{
+    display: flex;
+
+}
+.nav-section img{
+    margin-top: 8px;
+    width: 51px;
+    height: 51px;
+}
+.nav-section ul li{
+    list-style: none;
+    color: white;
+    margin-right:35px ;
 }
 .container{
     background-color: white;
